@@ -28,7 +28,7 @@ export default function Header() {
     >
       <div className="w-full flex">
         <div className="flex-1 flex items-center justify-start">
-          <span className="font-bold text-2xl text-azure-600">HaloSpect</span>
+          <span className="font-bold text-2xl text-azure-600 font-unbounded">HaloSpect</span>
         </div>
         <div className="flex-2 flex items-center justify-end gap-[3vw]">
           {navItem?.map((item, index) => (
@@ -40,7 +40,7 @@ export default function Header() {
             >
               <Link
                 href={item?.url || "#"}
-                className="font-normal text-gray-800 flex flex-row items-center justify-center relative group-hover:text-[#1F75FE] transition-colors duration-300"
+                className="font-medium text-gray-700 flex flex-row items-center justify-center relative group-hover:text-[#1F75FE] transition-colors duration-300"
               >
                 {item?.title}
                 {item?.dropdown && (

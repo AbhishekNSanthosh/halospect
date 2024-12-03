@@ -28,3 +28,10 @@ html {
   background-color: $theme-color;
   border-radius: 5px;
 }
+
+.back {
+  background: url('/hero-bg.png') no-repeat center center/cover;
+  background-position: center; /* Ensures the image is centered */
+  background-size: cover; /* Ensures the image covers the full container */
+  background-attachment: fixed; /* Optional: makes the background fixed when scrolling */
+}

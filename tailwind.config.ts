@@ -8,6 +8,29 @@ module.exports = {
     "./src/widgets/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'unbounded': ['Unbounded', 'sans-serif'],  // Custom font for Unbounded
+      'poppins': ['Poppins', 'sans-serif'],      // Custom font for Poppins
+      'fugaz': ['Fugaz One', 'sans-serif'],     // Custom font for Fugaz One
+      'rubik': ['Rubik Wet Paint', 'sans-serif'], // Custom font for Rubik Wet Paint
+    },
+    // fontSize: {
+    //   'base': '1rem',     // Base font size
+    //   'sm': '0.875rem',   // Small font size
+    //   'lg': '1.25rem',    // Large font size
+    // },
+    // fontWeight: {
+    //   'lighter': 'lighter',
+    //   'light': 300,
+    //   'normal': 400,
+    //   'medium': 500,
+    //   'semibold': 600,
+    //   'bold': 700,
+    //   'bolder': 'bolder',
+    // },
+    // spacing: {
+    //   'zero': '0',
+    // },
     colors: {
       slk: {
         regular: "#133c25",
@@ -31,7 +54,7 @@ module.exports = {
         800: '#1046bd',
         900: '#143e94',
         950: '#11275a',
-    },
+      },
       white: "#ffffff",
       black: {
         100: "#111111",
