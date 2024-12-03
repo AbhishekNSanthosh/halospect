@@ -1,0 +1,30 @@
+@import "custom/variables";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  scroll-behavior: smooth;
+  background-color: #ffff;
+}
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-tap-highlight-color: transparent; /* Safari and Chrome */
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $theme-color;
+  border-radius: 5px;
+}
