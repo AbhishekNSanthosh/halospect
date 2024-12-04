@@ -1,4 +1,8 @@
 export const navItem = [
+  {
+    title: "home",
+    url: "/",
+  },
     {
       title: "Subscription Solutions",
       url: "",
@@ -43,7 +47,7 @@ export const navItem = [
     },
     {
       title: "Contact",
-      url: "",
+      url: "/contact",
     },
   ];
   

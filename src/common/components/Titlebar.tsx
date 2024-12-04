@@ -18,7 +18,7 @@ const Titlebar: React.FC<TitlebarProps> = ({
     <div
       className={`${bgColor} ${className} uppercase flex items-center justify-between`}
     >
-      <div className="items-center justify-center flex gap-3">
+      <div className="items-center justify-center flex gap-3 font-unbounded">
         <FaRegDotCircle />
         {title}
       </div>

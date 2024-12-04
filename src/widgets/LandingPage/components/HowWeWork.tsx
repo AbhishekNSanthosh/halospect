@@ -11,7 +11,7 @@ export default function HowWeWork() {
         <div className="flex flex-col space-y-4">
           <Titlebar title="OUR SPECIALIZE" className="text-azure-600" />
           <div className="">
-            <h1 className="text-azure-600 font-semibold text-3xl">
+            <h1 className="text-azure-600 font-semibold text-3xl font-unbounded">
               How We Work ?
             </h1>
           </div>
